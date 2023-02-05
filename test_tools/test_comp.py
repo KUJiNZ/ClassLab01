@@ -20,6 +20,7 @@ def setup():
     num1 = ast.literal_eval(os.getenv('NUM_1'))
     num2 = ast.literal_eval(os.getenv('NUM_2'))
     add_call = simp.add(num1, num2)  # need to call to avoid raise exception that rules tells
+    return setup
 
 
 @pytest.mark.test_sumofdigits
@@ -41,7 +42,7 @@ def test_sumofdigits(setup):
 
 
 @pytest.mark.test_ispal
-def test_ispal():
+def test_ispal(setup):
     """
     Name: Artiom
     Function Name: test_ispal

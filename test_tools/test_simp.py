@@ -19,15 +19,15 @@ def setup():
 
 
 @pytest.mark.test_add
-def test_add():
+def test_add(setup):
     """
     Name: Artiom
     Function Name: test_add
     Description: Testing adding two numbers
     """
     try:
-        num1 = ast.literal_eval(os.getenv('NUM_1'))
-        num2 = ast.literal_eval(os.getenv('NUM_2'))
+        num1 = int(os.getenv('NUM_1'))
+        num2 = int(os.getenv('NUM_2'))
         x = simp.add(num1, num2)
         assert x == num1 + num2
         logger.info(
@@ -38,7 +38,7 @@ def test_add():
 
 
 @pytest.mark.test_subtract
-def test_subtract():
+def test_subtract(setup):
     """
     Name: Artiom
     Function Name: test_subtract

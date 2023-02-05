@@ -944,3 +944,45 @@ Actual: 22 Expected: 22 not None
     
 Actual: True Expected: True not None
  
+02/05/2023 09:56:58PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 22 Expected: 22 not None
+ 
+02/05/2023 09:56:58PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 09:57:10PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 22 Expected: 22 not None
+ 
+02/05/2023 09:57:10PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 10:06:17PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 22 Expected: 22 not None
+ 
+02/05/2023 10:06:17PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 

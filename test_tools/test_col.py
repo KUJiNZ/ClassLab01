@@ -1,10 +1,9 @@
+from dotenv import load_dotenv
+from test_tools.log import Log
+from tools import col
 import ast
 import os
 import pytest
-from dotenv import load_dotenv
-
-from test_tools.log import Log
-from tools import col
 
 # LOGGER
 LOG = Log("__col__ ", "col_log.log")
@@ -15,10 +14,11 @@ logger = LOG.logger
 def setup():
     # ENV FILE
     load_dotenv('.env.test')
+    return setup
 
 
 @pytest.mark.test_myzip
-def test_myzip():
+def test_myzip(setup):
     """
     Name: Artiom
     Function Name: test_myzip

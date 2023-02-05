@@ -1,7 +1,9 @@
+from dotenv import load_dotenv
 import os
 
 
 def add(a, b):
+    load_dotenv('.env.development')
     """
     Name: Artiom
     Function Name: add
