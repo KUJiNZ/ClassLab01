@@ -4,6 +4,7 @@ import pytest
 
 from test_tools.log import Log
 from tools.numbers import comp
+from tools.numbers import simp
 from dotenv import load_dotenv
 
 # LOGGER
@@ -12,6 +13,10 @@ logger = LOG.logger
 
 # ENV FILE
 load_dotenv('.env.test')
+
+@pytest.fixture()
+def setUP():
+
 
 
 @pytest.mark.test_sumofdigits
@@ -23,10 +28,13 @@ def test_sumofdigits():
     """
     try:
         num = int(os.getenv('NUM'))
-        x = comp.sumofdigits(num)
-        assert x == sum(map(int, str(num))) and x is not None
+        num1 = ast.literal_eval(os.getenv('NUM_1'))
+        num2 = ast.literal_eval(os.getenv('NUM_2'))
+        x1 = simp.add(num1, num2)  # need to call to avoid raise exception that rules tells
+        x2 = comp.sumofdigits(num)
+        assert x2 == sum(map(int, str(num))) and x2 is not None
         logger.info(
-            f"{test_sumofdigits.__doc__}\nActual: {x} Expected: {sum(map(int, str(num)))} not None\n")
+            f"{test_sumofdigits.__doc__}\nActual: {x2} Expected: {sum(map(int, str(num)))} not None\n")
     except Exception as e:
         logger.exception(f"{test_sumofdigits.__doc__}{e}\n")
         raise
@@ -41,7 +49,6 @@ def test_ispal():
     """
     try:
         num = int(os.getenv('NUM_PAL'))
-        print(num)
         x = comp.ispal(num)
         assert x is True
         logger.info(

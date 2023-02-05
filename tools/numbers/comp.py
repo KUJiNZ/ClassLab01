@@ -1,6 +1,14 @@
+import os
+from tools.numbers import simp
+
+
 def sumofdigits(num):
-    return sum(map(int, str(num)))
+    if hasattr(simp.add, str(os.getenv('SIMP_ATTRIBUTE'))) or hasattr(simp.subtract, str(os.getenv('SIMP_ATTRIBUTE'))):
+        return sum(map(int, str(num)))
+    raise Exception("You need to call a function from simp module first.")
 
 
 def ispal(num):
-    return str(num) == str(num)[::-1]
+    if hasattr(simp.add, str(os.getenv('SIMP_ATTRIBUTE'))) or hasattr(simp.subtract, str(os.getenv('SIMP_ATTRIBUTE'))):
+        return str(num) == str(num)[::-1]
+    raise Exception("You need to call a function from simp module first.")

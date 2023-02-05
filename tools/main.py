@@ -1,4 +1,4 @@
-import pytest
+from dotenv import load_dotenv
 
 import tools.numbers.simp as simp
 import tools.numbers.comp as comp
@@ -6,8 +6,9 @@ import tools.col as col
 
 
 if __name__ == '__main__':
-    print(simp.add(1, 2))
-    print(simp.subtract(5, 3))
+    load_dotenv('D:/PythonRepos/ClassLab1/tools/.env.development')
+    simp.add(1, 2)
+    simp.subtract(5, 3)
     print(comp.sumofdigits(234))
     print(comp.ispal(1221))
     print(list(col.myzip([1, 2, 3], [4, 5, 6])))
@@ -15,4 +16,3 @@ if __name__ == '__main__':
 
 
 
-    pytest.main(['test_complex.py','test_calc.py','test_detect.py'])

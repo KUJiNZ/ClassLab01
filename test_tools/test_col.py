@@ -12,7 +12,7 @@ LOG = Log("__col__ ", "col_log.log")
 logger = LOG.logger
 
 # ENV FILE
-load_dotenv('.env.test')
+load_dotenv('D:/PythonRepos/ClassLab1/test_tools/.env.test')
 
 
 
