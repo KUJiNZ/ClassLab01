@@ -1,12 +1,9 @@
 import pytest
-from dotenv import load_dotenv
-
 import tools.numbers.simp as simp
 import tools.numbers.comp as comp
 import tools.col as col
 
 if __name__ == '__main__':
-    load_dotenv('.env.test')
     print(simp.add(1, 2))
     print(simp.subtract(5, 3))
     print(comp.sumofdigits(234))

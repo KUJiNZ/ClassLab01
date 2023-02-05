@@ -212,3 +212,79 @@ Actual: 12 Expected: 12
     
 Actual: 6 Expected: 6
  
+02/05/2023 05:56:27PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 12 Expected: 12
+ 
+02/05/2023 05:56:27PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 6 Expected: 6
+ 
+02/05/2023 06:01:21PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 12 Expected: 12
+ 
+02/05/2023 06:01:21PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 6 Expected: 6
+ 
+02/05/2023 06:24:12PM __simp__ ERROR: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    malformed node or string: None
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_simp.py", line 29, in test_add
+    num1 = ast.literal_eval(os.getenv('NUM_1'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 110, in literal_eval
+    return _convert(node_or_string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 109, in _convert
+    return _convert_signed_num(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 83, in _convert_signed_num
+    return _convert_num(node)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 74, in _convert_num
+    _raise_malformed_node(node)
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 71, in _raise_malformed_node
+    raise ValueError(msg + f': {node!r}')
+ValueError: malformed node or string: None
+02/05/2023 06:24:12PM __simp__ ERROR: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    malformed node or string: None
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_simp.py", line 48, in test_subtract
+    num1 = ast.literal_eval(os.getenv('NUM_1'))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 110, in literal_eval
+    return _convert(node_or_string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 109, in _convert
+    return _convert_signed_num(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 83, in _convert_signed_num
+    return _convert_num(node)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 74, in _convert_num
+    _raise_malformed_node(node)
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 71, in _raise_malformed_node
+    raise ValueError(msg + f': {node!r}')
+ValueError: malformed node or string: None

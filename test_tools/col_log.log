@@ -47,3 +47,24 @@ Actual: <zip object at 0x000001D0A1012A80> Expected: zip and not None
     
 Actual: <zip object at 0x000001B297B32540> Expected: zip and not None
  
+02/05/2023 05:56:27PM __col__ INFO: 
+    Name: Artiom
+    Function Name: test_myzip
+    Description: Testing implementing zip function for 2 collections
+    
+Actual: <zip object at 0x000001313D7DA8C0> Expected: zip and not None
+ 
+02/05/2023 06:01:21PM __col__ INFO: 
+    Name: Artiom
+    Function Name: test_myzip
+    Description: Testing implementing zip function for 2 collections
+    
+Actual: <zip object at 0x0000024522C0C080> Expected: zip and not None
+ 
+02/05/2023 06:24:12PM __col__ INFO: 
+    Name: Artiom
+    Function Name: test_myzip
+    Description: Testing implementing zip function for 2 collections
+    
+Actual: <zip object at 0x000001EDC32259C0> Expected: zip and not None
+ 

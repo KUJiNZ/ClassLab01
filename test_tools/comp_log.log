@@ -680,3 +680,267 @@ Traceback (most recent call last):
   File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 14, in ispal
     raise Exception("You need to call a function from simp module first.")
 Exception: You need to call a function from simp module first.
+02/05/2023 05:49:15PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 31, in test_sumofdigits
+    num = int(os.getenv('NUM'))
+          ^^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+02/05/2023 05:49:15PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 52, in test_ispal
+    num = int(os.getenv('NUM_PAL'))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+02/05/2023 05:50:07PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 31, in test_sumofdigits
+    num = int(os.getenv('NUM'))
+          ^^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+02/05/2023 05:50:07PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 52, in test_ispal
+    num = int(os.getenv('NUM_PAL'))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+02/05/2023 05:50:36PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 31, in test_sumofdigits
+    num = int(os.getenv('NUM'))
+          ^^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+02/05/2023 05:51:11PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 22 Expected: 22 not None
+ 
+02/05/2023 05:55:45PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 22 Expected: 22 not None
+ 
+02/05/2023 05:55:45PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:56:19PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 22 Expected: 22 not None
+ 
+02/05/2023 05:56:19PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:56:27PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 22 Expected: 22 not None
+ 
+02/05/2023 05:56:27PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 06:01:21PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 06:01:21PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 06:17:59PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 22 Expected: 22 not None
+ 
+02/05/2023 06:17:59PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 06:18:11PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 29, in test_sumofdigits
+    num = int(os.getenv('NUM'))
+          ^^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+02/05/2023 06:18:11PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 50, in test_ispal
+    num = int(os.getenv('NUM_PAL'))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+02/05/2023 06:20:59PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 22 Expected: 22 not None
+ 
+02/05/2023 06:20:59PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 06:21:09PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 34, in test_sumofdigits
+    x2 = comp.sumofdigits(num)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 16, in sumofdigits
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
+02/05/2023 06:21:09PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 52, in test_ispal
+    x = comp.ispal(num)
+        ^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 28, in ispal
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
+02/05/2023 06:24:12PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 22 Expected: 22 not None
+ 
+02/05/2023 06:24:12PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 06:27:07PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 22 Expected: 22 not None
+ 
+02/05/2023 06:27:07PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 06:29:20PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 22 Expected: 22 not None
+ 
+02/05/2023 06:29:20PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 06:29:34PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 22 Expected: 22 not None
+ 
+02/05/2023 06:29:34PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 06:31:58PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 22 Expected: 22 not None
+ 
+02/05/2023 06:31:58PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 

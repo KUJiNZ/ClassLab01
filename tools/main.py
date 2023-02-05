@@ -6,7 +6,7 @@ import tools.col as col
 
 
 if __name__ == '__main__':
-    load_dotenv('D:/PythonRepos/ClassLab1/tools/.env.development')
+    load_dotenv('.env.development')
     simp.add(1, 2)
     simp.subtract(5, 3)
     print(comp.sumofdigits(234))

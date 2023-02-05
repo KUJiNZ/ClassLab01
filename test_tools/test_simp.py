@@ -1,17 +1,21 @@
 import ast
 import os
 import pytest
+from dotenv import load_dotenv
 
 from test_tools.log import Log
 from tools.numbers import simp
-from dotenv import load_dotenv
 
 # LOGGER
 LOG = Log("__simp__ ", "simp_log.log")
 logger = LOG.logger
 
-# ENV FILE
-load_dotenv('D:/PythonRepos/ClassLab1/test_tools/.env.test')
+
+@pytest.fixture()
+def setup():
+    # ENV FILE
+    load_dotenv('.env.test')
+    return setup
 
 
 @pytest.mark.test_add
