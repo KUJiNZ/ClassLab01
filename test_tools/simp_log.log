@@ -1,0 +1,214 @@
+02/05/2023 01:53:55PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 12 Expected: 12
+ 
+02/05/2023 01:53:55PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 6 Expected: 6
+ 
+02/05/2023 01:54:24PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 12 Expected: 12
+ 
+02/05/2023 01:54:24PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 6 Expected: 6
+ 
+02/05/2023 02:32:37PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 12 Expected: 12
+ 
+02/05/2023 02:32:37PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 6 Expected: 6
+ 
+02/05/2023 03:53:30PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 12 Expected: 12
+ 
+02/05/2023 03:53:30PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 6 Expected: 6
+ 
+02/05/2023 04:33:32PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 12 Expected: 12
+ 
+02/05/2023 05:05:55PM __simp__ ERROR: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    malformed node or string on line 1: <ast.Name object at 0x0000020C3DC84370>
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_simp.py", line 27, in test_add
+    x = simp.add(num1, num2)
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\simp.py", line 17, in add
+    setattr(add, str(ast.literal_eval(os.getenv('SIMP_ATTRIBUTE'))), True)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 110, in literal_eval
+    return _convert(node_or_string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 109, in _convert
+    return _convert_signed_num(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 83, in _convert_signed_num
+    return _convert_num(node)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 74, in _convert_num
+    _raise_malformed_node(node)
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 71, in _raise_malformed_node
+    raise ValueError(msg + f': {node!r}')
+ValueError: malformed node or string on line 1: <ast.Name object at 0x0000020C3DC84370>
+02/05/2023 05:05:55PM __simp__ ERROR: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    malformed node or string on line 1: <ast.Name object at 0x0000020C3DC867D0>
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_simp.py", line 46, in test_subtract
+    x = simp.subtract(num1, num2)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\simp.py", line 29, in subtract
+    setattr(subtract, str(ast.literal_eval(os.getenv('SIMP_ATTRIBUTE'))), True)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 110, in literal_eval
+    return _convert(node_or_string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 109, in _convert
+    return _convert_signed_num(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 83, in _convert_signed_num
+    return _convert_num(node)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 74, in _convert_num
+    _raise_malformed_node(node)
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 71, in _raise_malformed_node
+    raise ValueError(msg + f': {node!r}')
+ValueError: malformed node or string on line 1: <ast.Name object at 0x0000020C3DC867D0>
+02/05/2023 05:06:13PM __simp__ ERROR: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    malformed node or string on line 1: <ast.Name object at 0x000001E7C26C3220>
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_simp.py", line 27, in test_add
+    x = simp.add(num1, num2)
+        ^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\simp.py", line 17, in add
+    setattr(add, str(ast.literal_eval(os.getenv('SIMP_ATTRIBUTE'))), True)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 110, in literal_eval
+    return _convert(node_or_string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 109, in _convert
+    return _convert_signed_num(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 83, in _convert_signed_num
+    return _convert_num(node)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 74, in _convert_num
+    _raise_malformed_node(node)
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 71, in _raise_malformed_node
+    raise ValueError(msg + f': {node!r}')
+ValueError: malformed node or string on line 1: <ast.Name object at 0x000001E7C26C3220>
+02/05/2023 05:07:50PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 12 Expected: 12
+ 
+02/05/2023 05:07:50PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 6 Expected: 6
+ 
+02/05/2023 05:20:28PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 12 Expected: 12
+ 
+02/05/2023 05:20:28PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 6 Expected: 6
+ 
+02/05/2023 05:20:49PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 12 Expected: 12
+ 
+02/05/2023 05:20:49PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 6 Expected: 6
+ 
+02/05/2023 05:32:22PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 12 Expected: 12
+ 
+02/05/2023 05:32:22PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 6 Expected: 6
+ 
+02/05/2023 05:35:01PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 12 Expected: 12
+ 
+02/05/2023 05:35:01PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 6 Expected: 6
+ 

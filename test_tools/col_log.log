@@ -1,0 +1,49 @@
+02/05/2023 01:53:55PM __col__ INFO: 
+    Name: Artiom
+    Function Name: test_myzip
+    Description: Testing implementing zip function for 2 collections
+    
+Actual: <zip object at 0x000001F20CA805C0> Expected: zip and not None
+ 
+02/05/2023 01:54:24PM __col__ INFO: 
+    Name: Artiom
+    Function Name: test_myzip
+    Description: Testing implementing zip function for 2 collections
+    
+Actual: <zip object at 0x000001FC79D6EB00> Expected: zip and not None
+ 
+02/05/2023 02:32:37PM __col__ INFO: 
+    Name: Artiom
+    Function Name: test_myzip
+    Description: Testing implementing zip function for 2 collections
+    
+Actual: <zip object at 0x00000148F5DA2A00> Expected: zip and not None
+ 
+02/05/2023 05:20:28PM __col__ INFO: 
+    Name: Artiom
+    Function Name: test_myzip
+    Description: Testing implementing zip function for 2 collections
+    
+Actual: <zip object at 0x000002381ECFAFC0> Expected: zip and not None
+ 
+02/05/2023 05:20:49PM __col__ INFO: 
+    Name: Artiom
+    Function Name: test_myzip
+    Description: Testing implementing zip function for 2 collections
+    
+Actual: <zip object at 0x00000158AE82EC40> Expected: zip and not None
+ 
+02/05/2023 05:32:22PM __col__ INFO: 
+    Name: Artiom
+    Function Name: test_myzip
+    Description: Testing implementing zip function for 2 collections
+    
+Actual: <zip object at 0x000001D0A1012A80> Expected: zip and not None
+ 
+02/05/2023 05:35:01PM __col__ INFO: 
+    Name: Artiom
+    Function Name: test_myzip
+    Description: Testing implementing zip function for 2 collections
+    
+Actual: <zip object at 0x000001B297B32540> Expected: zip and not None
+ 

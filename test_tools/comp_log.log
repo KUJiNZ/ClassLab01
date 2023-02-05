@@ -1,0 +1,682 @@
+02/05/2023 01:53:55PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 01:53:55PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 01:54:24PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 01:54:24PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 02:32:37PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 26, in test_sumofdigits
+    x = comp.sumofdigits(num)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 4, in sumofdigits
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
+02/05/2023 02:32:37PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 45, in test_ispal
+    x = comp.ispal(num)
+        ^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 9, in ispal
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
+02/05/2023 02:35:58PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 28, in test_sumofdigits
+    x = comp.sumofdigits(num)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 4, in sumofdigits
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
+02/05/2023 02:35:58PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 47, in test_ispal
+    x = comp.ispal(num)
+        ^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 9, in ispal
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
+02/05/2023 02:42:47PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 28, in test_sumofdigits
+    x = comp.sumofdigits(num)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 5, in sumofdigits
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
+02/05/2023 02:42:47PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 47, in test_ispal
+    x = comp.ispal(num)
+        ^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 10, in ispal
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
+02/05/2023 02:45:39PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 28, in test_sumofdigits
+    x = comp.sumofdigits(num)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 5, in sumofdigits
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
+02/05/2023 02:46:05PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 28, in test_sumofdigits
+    x = comp.sumofdigits(num)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 5, in sumofdigits
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
+02/05/2023 02:49:57PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 30, in test_sumofdigits
+    x2 = comp.sumofdigits(num)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 4, in sumofdigits
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
+02/05/2023 02:49:57PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 49, in test_ispal
+    x = comp.ispal(num)
+        ^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 9, in ispal
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
+02/05/2023 02:50:19PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 30, in test_sumofdigits
+    x2 = comp.sumofdigits(num)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 4, in sumofdigits
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
+02/05/2023 02:50:19PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 49, in test_ispal
+    x = comp.ispal(num)
+        ^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 9, in ispal
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
+02/05/2023 02:50:49PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 30, in test_sumofdigits
+    x2 = comp.sumofdigits(num)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 4, in sumofdigits
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
+02/05/2023 03:54:08PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    name 'x' is not defined
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 33, in test_sumofdigits
+    f"{test_sumofdigits.__doc__}\nActual: {x} Expected: {sum(map(int, str(num)))} not None\n")
+                                           ^
+NameError: name 'x' is not defined
+02/05/2023 03:54:08PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    'function' object has no attribute 'sumofdigits_called'
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 49, in test_ispal
+    x = comp.ispal(num)
+        ^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 11, in ispal
+    if not getattr(simp.add, 'sumofdigits_called') or not getattr(simp.subtract, 'sumofdigits_called'):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'sumofdigits_called'
+02/05/2023 03:54:23PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    name 'x' is not defined
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 33, in test_sumofdigits
+    f"{test_sumofdigits.__doc__}\nActual: {x} Expected: {sum(map(int, str(num)))} not None\n")
+                                           ^
+NameError: name 'x' is not defined
+02/05/2023 03:54:38PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 03:54:38PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    'function' object has no attribute 'sumofdigits_called'
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 49, in test_ispal
+    x = comp.ispal(num)
+        ^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 11, in ispal
+    if not getattr(simp.add, 'sumofdigits_called') or not getattr(simp.subtract, 'sumofdigits_called'):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'sumofdigits_called'
+02/05/2023 03:54:54PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 03:54:54PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    'function' object has no attribute 'sumofdigits_called'
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 49, in test_ispal
+    x = comp.ispal(num)
+        ^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 11, in ispal
+    if not getattr(simp.add, 'sumofdigits_called') or not getattr(simp.subtract, 'sumofdigits_called'):
+                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'sumofdigits_called'
+02/05/2023 03:54:59PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 04:00:27PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 30, in test_sumofdigits
+    x2 = comp.sumofdigits(num)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 6, in sumofdigits
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
+02/05/2023 04:39:29PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    'function' object has no attribute 'sumofdigits_called'
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 49, in test_ispal
+    x = comp.ispal(num)
+        ^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 11, in ispal
+    if getattr(simp.add, 'sumofdigits_called'):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'sumofdigits_called'
+02/05/2023 05:17:57PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:17:57PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:19:47PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:19:54PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 30, in test_sumofdigits
+    x2 = comp.sumofdigits(num)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 7, in sumofdigits
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
+02/05/2023 05:20:28PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:20:28PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:20:49PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:20:49PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:22:58PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:22:58PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:24:38PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:24:38PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:24:47PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:24:47PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:25:00PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:26:03PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 30, in test_sumofdigits
+    x2 = comp.sumofdigits(num)
+         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 12, in sumofdigits
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
+02/05/2023 05:26:39PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:26:39PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:27:04PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:27:04PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:29:53PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:29:53PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:31:51PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:31:51PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:32:22PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:32:22PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:33:06PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:33:06PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:34:00PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:34:00PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:34:13PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:34:13PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:34:42PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 26, in test_sumofdigits
+    num = int(os.getenv('NUM'))
+          ^^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+02/05/2023 05:34:42PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 47, in test_ispal
+    num = int(os.getenv('NUM_PAL'))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+02/05/2023 05:35:01PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:35:01PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 47, in test_ispal
+    num = int(os.getenv('NUM_PAL'))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+02/05/2023 05:35:54PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:35:54PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:36:50PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:36:50PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:38:46PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:38:46PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:38:56PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 9 Expected: 9 not None
+ 
+02/05/2023 05:38:56PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:40:04PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 22 Expected: 22 not None
+ 
+02/05/2023 05:40:04PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:41:06PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_sumofdigits
+    Description: Testing sum of number digits
+    
+Actual: 22 Expected: 22 not None
+ 
+02/05/2023 05:41:06PM __comp__ INFO: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    
+Actual: True Expected: True not None
+ 
+02/05/2023 05:41:20PM __comp__ ERROR: 
+    Name: Artiom
+    Function Name: test_ispal
+    Description: Testing checking if the number is palindrome
+    You need to call a function from simp module first.
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_comp.py", line 48, in test_ispal
+    x = comp.ispal(num)
+        ^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\numbers\comp.py", line 14, in ispal
+    raise Exception("You need to call a function from simp module first.")
+Exception: You need to call a function from simp module first.
