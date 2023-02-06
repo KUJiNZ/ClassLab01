@@ -82,3 +82,157 @@ Actual: <zip object at 0x0000011913A25400> Expected: zip and not None
     
 Actual: <zip object at 0x000002D5FBAB4600> Expected: zip and not None
  
+02/06/2023 01:27:06PM __col__ ERROR: 
+    Name: Artiom
+    Function Name: test_myzip
+    Description: Testing implementing zip function for 2 collections
+    malformed node or string on line 1: <ast.Name object at 0x0000017A30659BA0>
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_col.py", line 29, in test_myzip
+    item_2 = ast.literal_eval(os.getenv('ITEM_2'))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 110, in literal_eval
+    return _convert(node_or_string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 90, in _convert
+    return list(map(_convert, node.elts))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 109, in _convert
+    return _convert_signed_num(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 83, in _convert_signed_num
+    return _convert_num(node)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 74, in _convert_num
+    _raise_malformed_node(node)
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 71, in _raise_malformed_node
+    raise ValueError(msg + f': {node!r}')
+ValueError: malformed node or string on line 1: <ast.Name object at 0x0000017A30659BA0>
+02/06/2023 01:30:40PM __col__ ERROR: 
+    Name: Artiom
+    Function Name: test_myzip
+    Description: Testing implementing zip function for 2 collections
+    malformed node or string on line 1: <ast.Name object at 0x000001BC3089B070>
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_col.py", line 29, in test_myzip
+    item_2 = ast.literal_eval(os.getenv('ITEM_2'))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 110, in literal_eval
+    return _convert(node_or_string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 90, in _convert
+    return list(map(_convert, node.elts))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 109, in _convert
+    return _convert_signed_num(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 83, in _convert_signed_num
+    return _convert_num(node)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 74, in _convert_num
+    _raise_malformed_node(node)
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 71, in _raise_malformed_node
+    raise ValueError(msg + f': {node!r}')
+ValueError: malformed node or string on line 1: <ast.Name object at 0x000001BC3089B070>
+02/06/2023 01:51:30PM __col__ ERROR: 
+    Name: Artiom
+    Function Name: test_myzip
+    Description: Testing implementing zip function for 2 collections
+    malformed node or string on line 1: <ast.Name object at 0x000002A2CEA10340>
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_col.py", line 29, in test_myzip
+    item_2 = ast.literal_eval(os.getenv('ITEM_2'))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 110, in literal_eval
+    return _convert(node_or_string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 90, in _convert
+    return list(map(_convert, node.elts))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 109, in _convert
+    return _convert_signed_num(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 83, in _convert_signed_num
+    return _convert_num(node)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 74, in _convert_num
+    _raise_malformed_node(node)
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 71, in _raise_malformed_node
+    raise ValueError(msg + f': {node!r}')
+ValueError: malformed node or string on line 1: <ast.Name object at 0x000002A2CEA10340>
+02/06/2023 01:51:54PM __col__ INFO: 
+    Name: Artiom
+    Function Name: test_myzip
+    Description: Testing implementing zip function for 2 collections
+    
+Actual: <zip object at 0x00000165D63C7FC0> Expected: zip and not None
+ 
+02/06/2023 01:54:24PM __col__ ERROR: 
+    Name: Artiom
+    Function Name: test_myzip
+    Description: Testing implementing zip function for 2 collections
+    malformed node or string on line 1: <ast.Name object at 0x0000019E9CC01690>
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_col.py", line 29, in test_myzip
+    item_2 = ast.literal_eval(os.getenv('ITEM_2'))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 110, in literal_eval
+    return _convert(node_or_string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 90, in _convert
+    return list(map(_convert, node.elts))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 109, in _convert
+    return _convert_signed_num(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 83, in _convert_signed_num
+    return _convert_num(node)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 74, in _convert_num
+    _raise_malformed_node(node)
+  File "C:\Users\deade\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 71, in _raise_malformed_node
+    raise ValueError(msg + f': {node!r}')
+ValueError: malformed node or string on line 1: <ast.Name object at 0x0000019E9CC01690>
+02/06/2023 01:54:37PM __col__ ERROR: 
+    Name: Artiom
+    Function Name: test_myzip
+    Description: Testing implementing zip function for 2 collections
+    'bool' object is not iterable
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_col.py", line 30, in test_myzip
+    x = col.myzip(item_1, item_2)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\col.py", line 14, in myzip
+    raise e
+  File "D:\PythonRepos\ClassLab1\tools\col.py", line 11, in myzip
+    if type(it1) is list and type(it2) is list and all(isinstance(item, int) for item in it1 and all(isinstance(item, int) for item in it2)):
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'bool' object is not iterable
+02/06/2023 01:54:49PM __col__ ERROR: 
+    Name: Artiom
+    Function Name: test_myzip
+    Description: Testing implementing zip function for 2 collections
+    'bool' object is not iterable
+ 
+Traceback (most recent call last):
+  File "D:\PythonRepos\ClassLab1\test_tools\test_col.py", line 30, in test_myzip
+    x = col.myzip(item_1, item_2)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PythonRepos\ClassLab1\tools\col.py", line 14, in myzip
+    raise e
+  File "D:\PythonRepos\ClassLab1\tools\col.py", line 11, in myzip
+    if type(it1) is list and type(it2) is list and all(isinstance(item, int) for item in it1 and all(isinstance(item, int) for item in it2)):
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: 'bool' object is not iterable
+02/06/2023 01:55:54PM __col__ INFO: 
+    Name: Artiom
+    Function Name: test_myzip
+    Description: Testing implementing zip function for 2 collections
+    
+Actual: <zip object at 0x0000025B6A370440> Expected: zip and not None
+ 

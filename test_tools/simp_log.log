@@ -465,3 +465,17 @@ Actual: 12 Expected: 12
     
 Actual: 6 Expected: 6
  
+02/06/2023 01:30:40PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 12 Expected: 12
+ 
+02/06/2023 01:30:40PM __simp__ INFO: 
+    Name: Artiom
+    Function Name: test_add
+    Description: Testing adding two numbers
+    
+Actual: 6 Expected: 6
+ 

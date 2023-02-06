@@ -7,4 +7,8 @@ def myzip(it1, it2):
     :param it2:
     :return:
     """
-    return zip(it1, it2)
+    try:
+        if type(it1) is list and type(it2) is list and (all(isinstance(item, int) for item in it1) and (all(isinstance(item, int) for item in it2))):
+            return zip(it1, it2)
+    except Exception as e:
+        raise e

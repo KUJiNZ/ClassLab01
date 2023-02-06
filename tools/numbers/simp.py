@@ -1,17 +1,19 @@
-from dotenv import load_dotenv
 import os
 
 
 def add(a, b):
-    load_dotenv('.env.development')
     """
     Name: Artiom
     Function Name: add
     Description: sum of two number and setting attribute for function in sumofdigits and ispal module comp
     :return sum of numbers
     """
-    setattr(add, str(os.getenv('SIMP_ATTRIBUTE')), True)
-    return a + b
+    try:
+        if type(a) is int or float and type(b) is int or float:
+            setattr(add, str(os.getenv('SIMP_ATTRIBUTE')), True)
+            return a + b
+    except Exception as e:
+        raise e
 
 
 def subtract(a, b):
@@ -21,5 +23,9 @@ def subtract(a, b):
     Description: subtract of two number and setting attribute for function in sumofdigits and ispal module comp
     :return subtract of numbers
     """
-    setattr(subtract, str(os.getenv('SIMP_ATTRIBUTE')), True)
-    return a - b
+    try:
+        if type(a) is int or float and type(b) is int or float:
+            setattr(subtract, str(os.getenv('SIMP_ATTRIBUTE')), True)
+            return a - b
+    except Exception as e:
+        raise e
